@@ -1,0 +1,266 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url("foto/germany-flag.png");
+    background-repeat: no-repeat;
+    background-size:cover; */
+
+}
+/*header style */
+
+.navbar-logo img{
+    max-height: 150px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .navbar{
+    justify-content: space-around;
+}
+
+.header , .header .navbar a li {
+    border-radius: 2px;
+    margin:0px 8px;
+    list-style-type: none;
+    color: black;
+}
+
+.header .active {
+  padding: 10px;
+  background-color:  #f2f2f2  ;
+}
+
+
+.footer .active {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.header li:hover {
+  padding: 10px;
+  background-color:  #f2f2f2  ;
+  font-size: 25px;
+}
+
+.footer li:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {    
+    text-decoration: none;
+}
+
+/* index main style */
+
+.main{
+    margin: auto;
+    max-width: 1170px;
+}
+
+.carousel-section{
+    margin: 50px auto;
+}
+
+.carousel , .carousel-inner img {
+    border-radius: 5%;
+    margin: auto;
+    max-width: 950px;
+    max-height: 500px;
+}
+
+.about-section{
+    margin: 50px auto;
+}
+
+
+
+/* index product style */
+
+
+
+.product-section{
+    text-align: center;
+
+    margin: 50px auto;
+}
+
+.card-group{
+    justify-content: space-evenly;
+}
+
+.card {
+    border: none;
+    max-width: 350px;
+    border-radius: 2%;
+}
+
+
+/* index blog stlye*/
+
+
+.blog{
+    margin: 50px 0px;
+}
+
+.blog img {
+    max-width: 280px;
+}
+
+.post .article-v2 .entry-title {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 600;
+}
+
+.post .article-v2 .article-header {
+  margin-bottom: 15px;
+}
+
+.post .article-v2 .article-content-main {
+  -webkit-box-shadow: 1px 0px 20px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 0px 20px 1px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  position: relative;
+  background: #fff;
+  margin-top: -75px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .post .article-v2 .article-content-main {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+.post .article-v2 .article-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+.post .article-v2 .article-thumb {
+  position: relative;
+  left: 25px;
+  margin-bottom: 0;
+}
+
+.post .article-v2 .article-footer {
+  border-top: 1px solid #ebebeb;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.post .article-v2 .article-footer .more-link {
+  color: #ffa800;
+}
+
+.post .article-v2 .article-footer .footer-meta a {
+  color: #aaa;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.post .article-v2 .article-footer .footer-meta a i {
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+/* product style */
+
+.tabs{
+  box-shadow: 0 2px 6px -3px rgb(0 0 0 / 17%);
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+}
+
+/* contact style */
+
+
+
+
+.contact {
+  background: #FFFFFF;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+.contact .map {
+  width: 45%;
+  float: left;
+}
+.contact .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.contact .contact-form .title {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+}
+.contact .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.contact .contact-form input,
+.contact .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.contact .contact-form input::placeholder,
+.contact .contact-form textarea::placeholder {
+  color: #242424;
+}
+.contact .contact-form .btn-send {
+  background: #A383C9;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}
+
+
+
+/* footer style */
+
+
+
+.footer{
+    background-color: #23242a;
+}
+
+ .footer .navbar a li {
+    border-radius: 2px;
+    margin:0px 8px;
+    list-style-type: none;
+    color: white;
+}
+
+.footer .navbar{
+    background-color: black;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.info , .location {
+    display: flex;
+
+}
+
+.info{
+    margin-top: 50px;
+
+}  
